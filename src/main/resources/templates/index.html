@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title Hello </title>
+</head>
+<body>
+
+<form class="form-file" action="/file/uploadByStream1" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileName">
+    <button type="submit" class=""> 单文件上传 </button>
+</form>
+
+<form class="form-file" action="/file/uploadByStream2" method="post" enctype="multipart/form-data">
+    <input multiple="multiple" name = "fileNames" type = "file">
+    <button type="submit" class=""> 多文件上传 </button>
+</form>
+
+
+</body>
+</html>
